@@ -1,2 +1,15 @@
-phd-thesis
+Design of Sustainable Solutions for Process Visualization in Industrial Automation with Model-Driven Software Development
 ==========
+
+PhD Thesis, Stefan Hennig
+
+Industrial facilities are supervised using dedicated Supervisory Control and Data Acquisition (SCADA) applications. These applications, however, suffer from being developed using platform specific terminologies which cause that their operative characteristics are strongly merged with aspects of the technical realization. Platforms executing these applications are characterized by short innovation cycles, thus, decreasing the life time of SCADA applications. Industrial facilities, however, are required to be in operation for decades which possibly requires repeated redevelopment of these applications even if the operative characteristics remain the same. Model driven techniques are promising design approaches to foster sustainability of SCADA applications: They separate operative characteristics from their technical realization using Domain Specific Languages. 
+
+
+This thesis proposes the domain specific modeling workbench Movisa. Its core consists of a domain specific modeling language enabling to capture operative characteristics of SCADA applications. For this purpose, it contains building blocks to create user interfaces, process data and communication relationships with automation specific data servers, and it allows to express custom functionality through an Executable UML realization. Language Constraints and model-integrity checks allow to identify errors in early design stages and ensure the correctness of models. Transformation rules capture aspects of the technical realization: They allow to process Movisa models either to modify these models or to automatically create runtime artifacts. In this context, different kinds of transformations are provided in order to support modelers in their assignments and, thus, to reduce the overall development effort. This complexity is encapsulated behind a high-fidelity modeling interface to be exploited by domain experts. It allows to solve problems with a common terminology that is very close to the respective solution space. Furthermore, engineering tools are able to populate Movisa models via the low-fidelity tool interface.
+
+Case studies from different fields of the domain production automation prove the language to be able to describe SCADA applications, thus, meeting related requirements of industrial automation. Sustainability of these applications can be ensured, among others, through automatic transformations, by reusing models and transformations in future projects and through having only one tool to master. 
+
+The quintessence of this thesis is that even though model driven approaches are challenging with respect to provide effective tool environments, they are very promising means for creating sustainable software designs.
+
+Dresden, 2012
